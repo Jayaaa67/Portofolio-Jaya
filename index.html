@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Jaya</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">JAYA</a>
+                <ul class="nav-links">
+                    <li><a href="#work">Tugas</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-title">Hai, Aku <span>Tian Sanjaya Junaedi</span></h1>
+                <p class="hero-subtitle">Mahasiswa di STMIK Mardira Indonesia</p>
+                <a href="#work" class="btn">Lihat Tugas</a>
+            </div>
+        </section>
+
+        <section id="work" class="work section">
+            <div class="container">
+                <h2 class="section-title">Tugas Saya</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="sistem-pakar.jpg" alt="Sistem Pakar">
+                        </div>
+                        <div class="project-info">
+                            <h3>Sistem Pakar Website</h3>
+                            <p>Website Rekomendasi Jurusan Kuliah</p>
+                            <a href="http://find-prodi.ct.ws" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="makalah.jpg" alt="Persentasi">
+                        </div>
+                        <div class="project-info">
+                            <h3>PPT Sistem Pakar</h3>
+                            <p>Penjelasan Mengenai Sistem Pakar</p>
+                            <a href="https://docs.google.com/presentation/d/1KJA-joSbTRRks9NxpnUhsum2eK0lyBmi/edit?usp=sharing&ouid=113694830954617329805&rtpof=true&sd=true" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">About Me</h2>
+                        <p>Halo! Nama saya Tian Sanjaya Junaedi, mahasiswa STMIK Mardira Indonesia dengan NIM 22110399. Saya memiliki minat besar di bidang teknologi dan pengembangan web.</p>
+                        <p>Saat ini saya berada di kelas J2022 dan selalu bersemangat untuk belajar hal-hal baru serta berkolaborasi dalam berbagai proyek kreatif.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="jaya.jpg" alt="Profile Photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <div class="container">
+                <h2 class="section-title">Hubungi Kami</h2>
+                <p class="contact-subtitle">Punya proyek dalam pikiran atau ingin berkolaborasi? Jangan ragu untuk menghubungi kami.</p>
+                <form class="contact-form" action="https://formspree.io/f/xvgqowrb" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Kirim Pesan</button>
+                </form>
+                <div class="social-links">
+                    <a href="https://github.com/Jayaaa67"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jaya67"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
