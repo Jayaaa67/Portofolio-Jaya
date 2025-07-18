@@ -161,7 +161,7 @@ img {
 
 /* Hero Section */
 .hero {
-    background-image: url('Pinterest.gif');
+    background-image: url('/img/Pinterest.gif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
